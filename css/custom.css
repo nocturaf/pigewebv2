@@ -37,27 +37,41 @@ p {
 #pigebannerlogo {
   width: 250px;
 }
-#imgstocktwits {
+#imgcg {
   margin-top:30px;
-}
-#imglunarcrush {
-  margin-top:35px;
 }
 #cgcmcwrapper {
   margin-top:50px;
 }
-#oinknft {
-  margin-left:30px;
+#swapframe {
+  width:100%;
+  margin-top:0px;
 }
-#nftwrapper {
-  margin-bottom:80px;
+#iframewrapper {
+  padding:15px;
 }
-#bscscantext {
-  margin-bottom: 130px;
+#nftcollage {
+  opacity:0.2;
+}
+#socialsec {
+  margin-bottom:200px;
 }
 
 
 @media only screen and (min-width: 768px) {
+  #socialsec {
+    margin-bottom:0px;
+  }
+  #nftcollage {
+    opacity:1;
+  }
+  #iframewrapper {
+    padding:0;
+  }
+  #swapframe {
+    width:500px;
+    margin-top:-60px;
+  }
   .h1-font, h1 {
     font-size: 3.75rem;
     line-height: 1.16;
@@ -68,25 +82,12 @@ p {
   #imgcmc {
     float:right;
   }
-  #imgstocktwits {
-    text-align:center;
-    margin-top:-3px;
-  }
-  #imglunarcrush {
+  #imgcg {
     float:left;
-    margin-top: 0;
+    margin-top:-8px;
   }
   #cgcmcwrapper {
     margin-top:75px;
-  }
-  #oinknft {
-    margin-left:0px;
-  }
-  #nftwrapper {
-    margin-bottom: 0;
-  }
-  #bscscantext {
-    margin-bottom: 50px;
   }
 }
 
